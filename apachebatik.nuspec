@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+    <metadata>
+        <id>ApacheBatik</id>
+        <version>1.18</version>
+        <title>Apache Batik SVG Toolkit</title>
+        <authors>The Apache Software Foundation</authors>
+        <owners>The Apache Software Foundation</owners>
+        <licenseUrl>https://xmlgraphics.apache.org/batik/license.html</licenseUrl>
+        <projectUrl>https://xmlgraphics.apache.org/batik/</projectUrl>
+        <iconUrl>https://xmlgraphics.apache.org/images/apache-batik-logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Batik is a Java-based toolkit for applications or applets that want to use images in the Scalable Vector Graphics (SVG) format for various purposes, such as display, generation or manipulation.
+
+The project's ambition is to give developers a set of core modules that can be used together or individually to support specific SVG solutions. Examples of modules are the SVG Parser, the SVG Generator and the SVG DOM. Another ambition for the Batik project is to make it highly extensible —for example, Batik allows the developer to handle custom SVG elements. Even though the goal of the project is to provide a set of core modules, one of the deliverables is a full fledged SVG browser implementation which validates the various modules and their inter-operability.</description>
+        <summary>Java-based toolkit for working with SVG</summary>
+        <copyright>© 2024 The Apache Software Foundation</copyright>
+        <tags>apache batik java svg xml graphics</tags>
+        <dependencies>
+            <dependency id="jre8" version="8.0.0" />
+        </dependencies>
+    </metadata>
+</package>
